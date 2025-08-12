@@ -1,0 +1,77 @@
+/* h1 {
+    color: transparent;  /* if you want invisible text */
+    /* color: brown;        /* this will override transparent */
+    /* font-size: 1200px;   added px unit */
+    /* font-family: "Poppins", sans-serif; fixed typo */
+    /* font-weight: 300; */
+    /* text-shadow: 10px 10px 4px black, 10px -10px 4px gray; */
+    /* text-indent: 30px;
+    tex-size:20px; */
+    /* text-decoration: underline wavy yellow; fixed extra symbols */
+    //backdrop property glassify effect
+
+
+
+/* body { */
+    /* background-color: rgba(45, 65, 30, 1); /* fixed rgb to rgba */
+    /* backgound-imgage:url("https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?cs=srgb&dl=pexels-thatguycraig000-1563356.jpg&fm=jpg");
+    backgound-repeat:"no repeat";
+    background-size:"contain";//cover
+    background-position:"center";//also write in percent */
+ /* whole 5 line in single line */
+
+
+
+//id selectors
+/* ID selector */
+/* #sub_heading {
+    color: yellow;
+    font-size: 40px;
+    text-align: center;
+}
+//attribute selector
+input{
+    background-color:"blue";
+    color:"white";
+
+} */
+ /* Body styling */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main heading */
+h1 {
+    color: brown;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Sub heading (ID selector) */
+#sub_heading {
+    color: darkgreen;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Input fields */
+input[type="text"], input[type="password"] {
+    display: block;            /* Put each on new line */
+    width: 300px;              /* Width of input box */
+    padding: 10px;             /* Inner spacing */
+    margin: 10px auto;         /* Space around & center horizontally */
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 5px;        /* Rounded corners */
+    background-color:"pink";
+}
+
+
+
+
+

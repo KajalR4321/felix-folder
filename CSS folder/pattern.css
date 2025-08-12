@@ -1,0 +1,108 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+h1{
+    color:brown;
+    font-size:1200;
+    font-family:"Poppins",sans-self;
+    font-weight:300;
+    text-shadow:10px 10px 4px black, 10px -10px 4px gray;
+    text-indent:30px;
+    text-decoration:underline wavy 14px yellow; */
+   /* background-color:pink; */
+    /* background:linear-gradient(90deg,red, orange);
+    bakground-clip:text;
+
+} */ 
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #243D83; /* Blue background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+/* Top horizontal line */
+.line1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 130px;
+  height: 16px;
+  background-color: white;
+}
+
+/* Left vertical line */
+.line2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 90px;
+  background-color: white;
+}
+
+/* Middle horizontal line */
+.line3 {
+  position: absolute;
+  top: 84px;
+  left: 0;
+  width: 116px;
+  height: 16px;
+  background-color: white;
+}
+
+/* Middle vertical line down */
+.line4 {
+  position: absolute;
+  top: 84px;
+  left: 100px;
+  width: 16px;
+  height: 100px;
+  background-color: white;
+}
+
+/* Bottom horizontal line */
+.line5 {
+  position: absolute;
+  top: 168px;
+  left: 100px;
+  width: 102px;
+  height: 16px;
+  background-color: white;
+}
+
+/* Right vertical line up */
+.line6 {
+  position: absolute;
+  top: 46px;
+  left: 184px;
+  width: 18px;
+  height: 122px;
+  background-color: white;
+}
+.line7 {
+   position: absolute;
+  top: 46px;
+  right: 0px;
+  width: 80px;
+  height: 16px;
+  background-color: white; 
+
+}
+.line8 {
+  position: absolute;
+  top: 0;          /* goes upward from middle */
+  left: 120px;     /* same as line4, but for left side */
+  width: 17px;
+  height: 62px;    /* same height as .line4 but upward */
+  background-color: white;
+}
+
+
